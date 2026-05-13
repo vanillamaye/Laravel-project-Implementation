@@ -19,13 +19,14 @@ Isang web-based application na binuo para sa aking **On-the-Job Training (OJT)**
 
 ### Registration & Email Success
 <p align="center">
-  <img src="Screenshots/login.png" width="45%" alt="Registration Page">
-  <img src="path/to/your/mailtrap-screenshot.png" width="45%" alt="Mailtrap Success">
+  <img src="Screenshots/login.png" width="45%" alt="Login Page"> 
+  <img src="Screenshots/adduser.png" width="45%" alt="Registration Page">
+  <img src="Screenshots/mailtrap.png" width="45%" alt="Mailtrap Success">
 </p>
 
 ### Dashboard Overview
 <p align="center">
-  <img src="path/to/your/dashboard-screenshot.png" width="90%" alt="Dashboard UI">
+  <img src="Screenshots/dashboard.png" width="90%" alt="Dashboard UI">
 </p>
 
 ## ⚙️ Installation
