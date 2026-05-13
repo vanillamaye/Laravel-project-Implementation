@@ -1,12 +1,12 @@
-# 🛍️ Maye Store - Inventory & Staff Management System
+# 🛍️ Maye Store - Inventory & User Management System
 
 Isang web-based application na binuo para sa aking **On-the-Job Training (OJT)** sa Customer Frontline Solutions. Ang system na ito ay tumutulong sa pag-manage ng inventory at pag-automate ng staff registration gamit ang email notifications.
 
 ## 🚀 Features
-* **User Authentication**: Secure login at registration para sa staff.
-* **Email Notifications**: Automated welcome emails gamit ang **Mailtrap** SMTP.
-* **Inventory Management**: Real-time tracking ng mga produkto sa store.
-* **Personalized UI**: Custom Blade templates para sa dashboard at email views.
+* **User Authentication**: Secure login at registration for user.
+* **Email Notifications**: Automated welcome emails using **Mailtrap** SMTP.
+* **Inventory Management**: Real-time tracking of products in store.
+* **Personalized UI**: Custom Blade templates for dashboard and email views.
 
 ## 🛠️ Tech Stack
 * **Framework**: Laravel 11
