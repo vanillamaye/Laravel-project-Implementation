@@ -24,7 +24,7 @@ Isang web-based application na binuo para sa aking **On-the-Job Training (OJT)**
   <img src="Screenshots/mailtrap.png" width="45%" alt="Mailtrap Success">
 </p>
 
-### Dashboard Overview
+### Dashboard Overview 
 <p align="center">
   <img src="Screenshots/dashboard.png" width="90%" alt="Dashboard UI">
 </p>
