@@ -19,7 +19,7 @@ Isang web-based application na binuo para sa aking **On-the-Job Training (OJT)**
 
 ### Registration & Email Success
 <p align="center">
-  <img src="C:\Users\USER\Pictures\Screenshots\login.php" width="45%" alt="Registration Page">
+  <img src="Screenshots/login.php" width="45%" alt="Registration Page">
   <img src="path/to/your/mailtrap-screenshot.png" width="45%" alt="Mailtrap Success">
 </p>
 
