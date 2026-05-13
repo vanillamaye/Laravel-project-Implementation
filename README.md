@@ -15,8 +15,6 @@ Isang web-based application na binuo para sa aking **On-the-Job Training (OJT)**
 * **Tools**: Mailtrap (SMTP Testing), Vite (Asset Bundling), GitHub
 
 ## 📸 Screenshots
-*(Dito mo ilalagay ang screenshots ng app mo para makita agad ni Boss!)*
-
 ### Registration & Email Success
 <p align="center">
   <img src="Screenshots/login.png" width="45%" alt="Login Page"> 
