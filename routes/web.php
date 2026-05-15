@@ -2,20 +2,23 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InventoryController;
-use App\Http\Controllers\ECommerce;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\EcommerceController;
 
-// 1. Public Routes
+// Public Routes
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
+Route::get('/inventory/report', [EcommerceController::class, 'generatePDF'])->name('inventory.report');
 
-// 2. Protected Routes (Dito lahat ng may auth)
+Route::put('/update-qty/{id}', [EcommerceController::class, 'update'])->name('products.update');
+
+
 Route::middleware(['auth'])->group(function () {
     
     // Shop Routes
-    Route::get('/shop', [ECommerce::class, 'index'])->name('shop');
-    Route::put('/shop/{id}', [ECommerce::class, 'update'])->name('products.update');
-    Route::delete('/shop/{id}', [ECommerce::class, 'destroy'])->name('products.destroy');
+    Route::get('/shop', [ECommerceController::class, 'index'])->name('shop');
+    Route::put('/shop/{id}', [ECommerceController::class, 'update'])->name('products.update');
+    Route::delete('/shop/{id}', [ECommerceController::class, 'destroy'])->name('products.destroy');
     
     // Admin Only: Registration Loop
     Route::get('/register', [AuthController::class, 'showRegister']);

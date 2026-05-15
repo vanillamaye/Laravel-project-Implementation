@@ -23,10 +23,10 @@
                 Hi, {{ Auth::user()->name }}! ({{ strtoupper(Auth::user()->role) }})
             </span>
             
-            <form action="{{ url('/logout') }}" method="POST" class="inline">
-                @csrf
-                <button type="submit" class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded text-xs font-bold uppercase transition">
-                    Logout
+            <form action="{{ route('logout') }}" method="POST" class="inline">
+                    @csrf
+                     <button type="submit" class="text-red-500 hover:text-red-700 text-xs font-black uppercase tracking-tighter hover:underline transition">
+                     Logout
                 </button>
             </form>
         </div>
