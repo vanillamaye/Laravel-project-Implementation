@@ -1,6 +1,6 @@
 # 🛍️ Maye Store - Inventory & User Management System
 
-Isang web-based application na binuo para sa aking **On-the-Job Training (OJT)** sa Customer Frontline Solutions. Ang system na ito ay tumutulong sa pag-manage ng inventory at pag-automate ng staff registration gamit ang email notifications.
+
 
 ## 🚀 Features
 * **User Authentication**: Secure login at registration for user.
